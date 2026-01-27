@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    display: flex;
+    justify-content: cneter;
+    background-image: linear-gradient(-30deg, rgb(159, 49, 255) , rgb(70, 0, 182) );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    
+    
+    margin: auto;
+    width: 80vw;
+    height: 300px;
+
+    background-color: rgba(255, 255, 255, 0.173);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    box-shadow: 3px 3px 5px rgba(36, 0, 107, 0.597);
+    border-radius: 10px;
+}
+
+
+div#Login {
+font-family: Arial, Helvetica, sans-serif;
+width: 50vw ;
+
+background-color: rgba(206, 229, 250, 0);
+
+}
+div#Login > p {
+    font-size: 1em;
+    font-weight: bold;
+}
+div#Login > form {
+    text-align: left;
+    padding-top:10px ;
+}
+
+div#Login > form > fieldset > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div#Login > form > fieldset > p > label {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: monospace;
+}
+div#Login > form > fieldset > a{
+text-decoration: none;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 1px 1px 3px rgba(3, 3, 3, 0.458);
+    border-radius: 0px 5px 5px 0px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    padding: 5px;
+}
+div#Login > form > fieldset > a > div{
+    display: inline-block;
+background-color: rgba(255, 255, 255, 0.06);
+box-shadow: inset 1px 1px 3px rgba(3, 3, 3, 0.458);
+border-radius: 7px;
+padding: 5px;
+}
+
+div#Imagen{
+    width: 30vw;
+    background-color: rgba(233, 246, 4, 0.145);
+    background-size: cover;
+    
+    background-image: url(../Imagens/halftone-746402_1280.png);
+}

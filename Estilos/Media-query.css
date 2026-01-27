@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/* aqui vou colocar as media queries prepara primeiro a que não entra os dispositivos moveis*/
+@media screen and (min-width: 769) {
+    
+}
