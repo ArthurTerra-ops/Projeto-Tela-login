@@ -1,5 +1,41 @@
 @charset "UTF-8";
 /* aqui vou colocar as media queries prepara primeiro a que não entra os dispositivos moveis*/
-@media screen and (min-width: 769) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(0deg, #49a08d, #5f2c82);
+    }
+    section#login{
+        width: 80vw;
+    }
     
+    section#login > div#imagem {
+        float: left;
+            width: 40%;
+            height: 100%;
+
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+    body {
+        background-image: linear-gradient(0deg, #49a08d, #5f2c82);
+    }
 }
