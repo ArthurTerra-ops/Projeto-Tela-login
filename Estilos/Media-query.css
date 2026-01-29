@@ -40,10 +40,10 @@
     body {
         background-image: linear-gradient(0deg, #49a08d, #5f2c82);
     }
-}
-div#formulario > h1 {
+    div#formulario > h1 {
     font-size: 2em;
 }
 div#formulario > p {
     font-size: 1.2em;
+}
 }
