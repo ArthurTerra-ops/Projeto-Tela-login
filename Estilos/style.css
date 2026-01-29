@@ -39,6 +39,11 @@ section#login{
     transition: width .5s, height .5s;
     transition-timing-function: ease;
 }
+section#login > div#formulario:hover{
+    transform: scale(1.005);
+    box-shadow: 0px 0px 10px black;
+    transition: all .3s ease-in;
+}
 
 section#login > div#imagem {
     background: rgb(88, 0, 88) url(../Imagens/halftone-746402_1280.png);
@@ -50,6 +55,7 @@ section#login > div#imagem {
 section#login > div#formulario{
     display: block;
     padding: 10px;
+
 }
 
 div#formulario > h1 {
